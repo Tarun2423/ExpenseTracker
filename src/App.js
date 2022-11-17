@@ -12,7 +12,7 @@ import SignUp from "./pages/Register/register";
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
-
+  
   return (
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
