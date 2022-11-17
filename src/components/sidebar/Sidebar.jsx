@@ -1,15 +1,16 @@
 import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import LocalShippingIcon from "@mui/icons-material/LocalShipping";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
-import StoreIcon from "@mui/icons-material/Store";
+import HouseIcon from '@mui/icons-material/House';
+import FastfoodIcon from '@mui/icons-material/Fastfood';
 import InsertChartIcon from "@mui/icons-material/InsertChart";
-import SettingsApplicationsIcon from "@mui/icons-material/SettingsApplications";
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import PersonPinIcon from '@mui/icons-material/PersonPin';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
-import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
+import KitesurfingIcon from '@mui/icons-material/Kitesurfing';
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import { Link } from "react-router-dom";
 import { DarkModeContext } from "../../context/darkModeContext";
@@ -35,49 +36,49 @@ const Sidebar = () => {
           <p className="title">LISTS</p>
           <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
-              <PersonOutlineIcon className="icon" />
+              <FastfoodIcon className="icon" />
               <span>Food</span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <HouseIcon className="icon" />
               <span>Housing</span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <DirectionsCarIcon className="icon" />
               <span>Transportation</span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <PersonPinIcon className="icon" />
               <span>Personal Spending</span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
-              <span>Utilities</span>
+              <AddShoppingCartIcon className="icon" />
+              <span>Shopping</span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <AccountBalanceIcon className="icon" />
               <span>Debt Payments </span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <MonitorHeartIcon className="icon" />
               <span> Medical & Healthcare </span>
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
+              <KitesurfingIcon  className="icon" />
               <span>Recreation & Entertainment</span>
             </li>
           </Link>
